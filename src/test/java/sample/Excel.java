@@ -20,6 +20,7 @@ public class Excel {
 		// Write the data to excel file
 		XSSFCell cell = sheet.getRow(2).getCell(1);
 		cell.setCellValue("Mahesh");
+		
 		fis.close();
 
 		FileOutputStream fileOut = new FileOutputStream(
